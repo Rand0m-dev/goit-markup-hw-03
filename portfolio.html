@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -13,21 +13,22 @@
 <body>
     <!-- Шапка сайта -->
     <header>
-        <!-- Логотип сайта-->
-      <a href="./index.html"><img src="./images/WebStudio.jpg" alt="Logo" width="145"></a>
-      <!--Навигация по сайту-->
-      <nav class="main-nav">  
-        <ul>
-            <li><a href="./index.html">Студия</a></li>
-            <li><a class="select-nav" href="./portfolio.html">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
-          </ul>
-      </nav>
-      <address class="contacts">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
-    </header>
+        <div class="container head">
+            <!-- Логотип сайта-->
+        <a href="./index.html"><img src="./images/WebStudio.jpg" alt="Logo" width="145"></a>
+        <!--Навигация по сайту-->
+        <nav class="main-nav">
+          <ul class="list">
+              <li class="item"><a  href="./index.html">Студия</a></li>
+              <li class="item"><a class="select-nav" href="./portfolio.html">Портфолио</a></li>
+              <li class="item"><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+          <address class="contacts">
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </address>
+      </header>
     <main>
         <h1>Примеры работ</h1>
         <!-- Фильтр-->
